@@ -1,0 +1,270 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url(../fonts/font/Gilroy-Bold.ttf);
+}
+@font-face {
+    font-family: 'Gilroy-medium';
+    src: url(../fonts/font/Gilroy-Medium.ttf);
+}
+
+body{
+    margin: 0 auto;
+}
+header{
+    width:940px ;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-bottom: 1px solid;
+    border-color: #828282;    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+a{
+    text-decoration: none;
+    color: #828282;
+    font-family: 'Gilroy-Bold';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.bold{
+    color: #070707;
+    font-family: 'Gilroy-Bold';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+main{
+   
+    margin: 0 auto;
+}
+
+.line{
+    width: 940px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.ru{
+    height:65px ;
+}
+.men{
+    width: 940px;
+    margin: 0 auto;
+}
+h1{
+    color:  #070707;
+    font-family: 'Gilroy-Bold';
+    font-size: 47.339px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.ui{
+    color:#070707;
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 45px;
+    margin-right: 50px;
+}
+.back{
+    background-color: #F6F6F6;
+    margin-top: 104px;
+    height: 504px;
+}
+.about{
+    margin: 0 auto;
+    width: 940px;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+}
+.column{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+h2{
+    margin-top: 110px;
+    margin-bottom: 20px;
+    color: #070707;
+    text-align: center;
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+.ux{
+    text-align: center;
+    color: #070707;
+    text-align: center;
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    margin-top: 0px;
+}
+.prwork{
+    width: 940px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+
+}
+.lineTwo{
+    display: flex;
+    justify-content: space-between;
+    gap: 90px;
+}
+.skill{
+    color: #070707;
+    text-align: center;
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    margin-bottom: 55px;
+    padding: 0px;
+}
+.work{
+    color: #070707;
+    text-align: center;
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    margin-bottom: 83px;
+    padding: 0px;
+}
+.prog{
+    color: #828282;
+    text-align: center;
+    font-family: 'Gilroy-Bold';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    margin-bottom: 30px;
+    padding: 0;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.disign{
+    margin-bottom: 24px;
+}
+.backport{
+    background-color: #F6F6F6; 
+    margin: 0 auto;
+    margin-top: 110px;
+}
+.portfolio{
+    width: 940px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.port{
+    color: #070707;
+    text-align: center;
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    margin-bottom: 47px;
+    margin-top: 112px;
+}
+.concept{
+    color:#070707;
+    text-align: center;
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 99px;
+    margin-top: 44px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+h3{
+    color: #070707;
+    text-align: center;
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    margin-top: 114px;
+    margin-bottom: 20px;
+}
+.more{
+    color:  #070707;
+    text-align: center;
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 30px; 
+}
+.button{
+    color: #FFF;
+    font-family: 'Gilroy-Bold';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    background-color: black;
+    border-radius: 25px;
+    width: 180px;
+    height: 32px;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 85px;
+}
+.like{
+    color: #828282;
+    text-align: center;
+    font-family: 'Gilroy-Medium';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+.twit{
+    display: flex;
+    gap: 60px;
+    margin-bottom: 42px;
+}
