@@ -11,17 +11,25 @@
     src: url(../fonts/font/Gilroy-Medium.ttf);
 }
 
+
 body{
     margin: 0 auto;
 }
 header{
-    width:940px ;
+   max-width:940px ;
     margin: 0 auto;
     margin-top: 30px;
     border-bottom: 1px solid;
     border-color: #828282;    
 }
-nav{
+.lineh{
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    margin: 5px 0;
+    transition: all 0.3s ease;
+}
+ul{
     display: flex;
     justify-content: space-between;
     margin-bottom: 35px;
@@ -49,7 +57,7 @@ main{
 }
 
 .line{
-    width: 940px;
+    max-width: 940px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -58,8 +66,12 @@ main{
 .ru{
     height:65px ;
 }
-.men{
+section{
+    margin: 0 auto;
     width: 940px;
+}
+.men{
+   
     margin: 0 auto;
 }
 h1{
@@ -168,6 +180,7 @@ h2{
     line-height: normal; 
     margin-bottom: 30px;
     padding: 0;
+    height: 36px;
 }
 .col{
     display: flex;
@@ -267,4 +280,110 @@ h3{
     display: flex;
     gap: 60px;
     margin-bottom: 42px;
+}
+.burger{
+    display: none;
+    cursor: pointer;
+}
+@media screen and (max-width: 375px) {
+    header {
+        width: 100%;
+    }
+    header ul{
+        display: none;
+    }
+    header ul.show-menu {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin-left: 30px;
+    }
+    .men{
+        background-image: url("../img/minimen.png");
+        background-size: cover;
+        width: 317px;
+        height:478px ;
+    }
+    .men img{
+        display: none; 
+    }
+    section{
+        width: 315px;
+        display: flex;
+        flex-direction: column;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .back{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .line{
+       max-width: 315px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 0px;
+    }
+    .ru{
+        display: none;
+    }
+    main{
+        width: 315px;
+        margin: 0px;
+    }
+    h1{
+        margin-bottom: 23px;
+    }
+    .ui{
+        margin-top: 0;
+        margin-bottom: 36px;
+    }
+    .about{
+        width: 315px;
+    }
+    h2{
+        margin-top: 81px;
+        margin-bottom: 29px;
+    }
+    .prwork{
+        width: 315px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .backport{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .lineTwo{
+        display: flex;
+        flex-direction: column;
+    }
+    .portfolio{
+        width: 315px;
+        margin: 0px;
+    }
+    .portfolio img{
+        width: 315px;
+    }
+    .concept{
+        margin-bottom: 77px;
+        margin-top: 33px;
+    }
+    .port{
+        margin-top: 81px;
+        margin-bottom: 64px;
+    }
+    .twit{
+        gap: 50px;
+    }
+    .button{
+        width: 315px;
+    }
+    .burger{
+        display: block;
+        cursor: pointer;
+        margin-top: 50px;
+        margin-right:10px;
+        margin-bottom: auto;
+    }
 }
